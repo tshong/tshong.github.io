@@ -1,0 +1,20 @@
+---
+$schema: "http://json-schema.org/draft-04/schema"
+id: "http://stsci.edu/schemas/yaml-schema/draft-01"
+title:
+  Yaml Schema for EZoChamp, from IPMS
+type: object
+description: |
+  InfoEZoChamp design document
+required:
+  - apiVersion
+  - kind
+properties:
+  apiVersion:
+    type: string
+  kind:
+    type: string
+    enum:
+      - Simple
+      - Complicated
+      - Medium
