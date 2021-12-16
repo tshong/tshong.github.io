@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://tshong.github.io/schema/champ.json",
   "title": "JSON Schema for Hadolint, a Dockerfile linter tool",
   "description": "Dockerfile linter, validate inline bash, written in Haskell",
   "type": "object",
